@@ -1,0 +1,74 @@
+body{
+    color: white;
+    background-color: #1C1C1C;
+}
+#heading{
+    text-align: center;
+    font-size: 47px;
+}
+.playground{
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    /* border: 3px solid black; */
+}
+.game-con{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 264px;
+    width: 300px;
+    /* border: 3px solid rebeccapurple; */
+    margin: 10px;
+    
+
+}
+.box{
+    border: 2px solid #D4D4D2;
+    height: 86px;
+    width: 91px;
+    font-size: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game-info{
+    /* border: 3px solid purple; */
+    height: 266px;
+    width: 298px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.top{
+    border-top: 2px solid #D4D4D2;
+}
+.right{
+    border-right:2px solid #D4D4D2;
+}
+.left{
+    border-left: 2px solid #D4D4D2;
+}
+.down{
+    border-bottom: 2px solid #D4D4D2;
+}
+
+#caution{
+    color: crimson;
+}
+#reset{
+    height: 30px;
+    width: 68px;
+    margin-top: 80px;
+}
+footer{
+    font-size: 26px;
+    margin: 50px;
+}
